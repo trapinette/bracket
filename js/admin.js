@@ -1,7 +1,7 @@
 import { auth, provider } from "./firebase-config.js";
 import { signInWithPopup } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
-const ADMINS = ["TonPseudoGithub"];
+const ADMINS = ["trapinette"];
 
 document.getElementById("login").onclick = async () => {
 
