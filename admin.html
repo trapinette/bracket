@@ -1,9 +1,12 @@
-<h1>Inscription au tournoi</h1>
+<h1>Admin Trapinette</h1>
+<button id="login">Login GitHub</button>
 
-<form id="registerForm">
-  <input type="text" id="playerName" placeholder="Nom du joueur" required>
-  <button type="submit">S'inscrire</button>
-</form>
+<div id="adminPanel" style="display:none;">
+  <button id="generateBracket">Générer le bracket</button>
+  <button id="announceDiscord">Notifier Discord</button>
+</div>
 
 <script src="js/firebase-config.js"></script>
-<script src="js/register.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/discord.js"></script>
+<script src="js/bracket.js"></script>
